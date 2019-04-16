@@ -1,4 +1,6 @@
-# Paystack Mirror
+
+<img src="http://github.com/paystack-mirror/docs/logo.png"/>
+
 The missing Paystack PHP Library. 
 ___
 ## Overview
@@ -43,7 +45,7 @@ Below are actions groups supported by the library in alphabetical order.
 16. TRANSFERS CONTROL
 17. VERIFICATIONS
 
->**Note:** To see the list of all actions under each action groups available on this library, kindly [Click Here](https://github.com/coderatio/paystack-mirror/src/Actions). 
+>**Note:** To see the list of all actions under each action groups available on this library, kindly [Click Here](https://github.com/coderatio/paystack-mirror/tree/master/src/Actions). 
 
 > Arrangements are on the way to list all of them like the first two above.
 

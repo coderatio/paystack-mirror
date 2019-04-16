@@ -1,0 +1,33 @@
+{
+    "name": "coderatio/paystack-mirror",
+    "description": "An actionable PHP library for Paystack Api",
+    "type": "library",
+    "homepage": "https://github.com/coderatio/paystack-mirror",
+    "authors": [
+        {
+            "name": "Josiah Ovye Yahaya",
+            "email": "hello@josiah.com.ng",
+            "homepage": "http://josiah.com.ng",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "Coderatio\\PaystackMirror\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7.5.x-dev"
+    },
+    "license": "GPL",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1"
+    }
+}
