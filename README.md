@@ -329,4 +329,4 @@ Correcting a typographical error is a huge a contribution to this project. Do we
 1. [Josiah O. Yahaya](http://github.com/coderatio)
 
 ## Licence
-This project is built and used with `GPL` licence.
+This project is built and used with `GPL.3.0` licence.
