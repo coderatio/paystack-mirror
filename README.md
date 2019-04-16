@@ -1,5 +1,4 @@
-
-<img src="https://github.com/coderatio/paystack-mirror/blob/master/docs/logo.png"/>
+<img src="https://github.com/coderatio/paystack-mirror/blob/master/docs/logo.png" width=200/>
 
 The missing Paystack PHP Library. 
 ___

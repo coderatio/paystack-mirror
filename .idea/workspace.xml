@@ -1,105 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d80acf-4862-4677-b535-3cd849d8031f" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/pages/bulk-charges.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/pages/charges.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/BulkCharges/FetchBulkChargeBatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/BulkCharges/FetchChargesBatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/BulkCharges/InitializeBulkCharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/BulkCharges/ListBulkChargeBatches.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/BulkCharges/PauseBulkChargeBatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/BulkCharges/ResumeBulkChargeBatch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Charges/CheckPendingCharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Charges/InitializeCharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Charges/SubmitBirthdayToCharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Charges/SubmitOtpToCharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Charges/SubmitPhoneToCharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Charges/SubmitPinToCharge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Charges/TokenizePaymentInstrument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/ControlPanel/FetchPaymentSessionTimeout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/ControlPanel/UpdatePaymentSessionTimeout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Customers/CreateCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Customers/DeactivateCustomerAuthorization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Customers/FetchCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Customers/ListCustomers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Customers/UpdateCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Customers/WhiteOrBlackListCustomer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/ArchiveInvoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/CreateInvoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/FinalizeInvoiceDraft.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/InvoiceTotals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/ListInvoices.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/MarkAsPaidInvoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/SendInvoiceNotification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/UpdateInvoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/VerifyInvoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Invoices/ViewInvoice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Miscellaneous/CheckBalance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Miscellaneous/ListBanks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Pages/CheckAvailablePageSlug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Pages/CreatePage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Pages/FetchPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Pages/ListPages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Pages/UpdatePage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Plans/CreatePlan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Plans/FetchPlan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Plans/ListPlans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Plans/UpdatePlan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Settlements/FetchSettlements.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/SubAccounts/CreateSubAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/SubAccounts/FetchSubAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/SubAccounts/ListSubAccounts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/SubAccounts/UpdateSubAccount.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Subscriptions/CreateSubscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Subscriptions/DisableSubscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Subscriptions/EnableSubscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Subscriptions/FetchSubscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Subscriptions/ListSubscriptions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/ChargeAuthorization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/CheckAuthorization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/DeactivateAuthorization.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/ExportTransactions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/FetchTransaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/InitializeTransaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/ListTransactions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/TransactionTotals.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/VerifyTransaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transactions/ViewTransactionTimeline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransferRecipients/CreateTransferRecipient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransferRecipients/DeleteTransferRecipient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransferRecipients/ListTransferRecipients.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransferRecipients/UpdateTransferRecipient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transfers/FetchTransfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transfers/FinalizeTransfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transfers/InitializeTransfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/Transfers/InitiateBulkTransfer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransfersControl/DisableTransferOtp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransfersControl/EnableTransferOtp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransfersControl/FinalizeDisableTransferOtp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Actions/TransfersControl/ResendTransferOtp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Events/SubscriptionCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exceptions/PaystackMirrorException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PaystackMirror.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CurlCacheService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CurlHttpResponseService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/CurlService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/RequestHandlerService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasBulkChargeBatchIdOrCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasIdOrCustomerCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasIdOrPlanCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasIdOrReference.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasIdOrSlug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasIdOrSubscriptionCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasInvoiceIdOrCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Traits/HasRecipientCodeOrId.php" afterDir="false" />
+    <list default="true" id="89d80acf-4862-4677-b535-3cd849d8031f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="174">
-                <caret line="5" column="11" lean-forward="true" selection-end-line="332" selection-end-column="50" />
+              <first_editor relative-caret-position="145">
+                <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -326,7 +229,7 @@
       <updated>1554981895595</updated>
       <workItem from="1554981898851" duration="53121000" />
       <workItem from="1555110694535" duration="5445000" />
-      <workItem from="1555164651164" duration="50639000" />
+      <workItem from="1555164651164" duration="50909000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1555417727577</created>
@@ -335,7 +238,28 @@
       <option name="project" value="LOCAL" />
       <updated>1555417727577</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added all the actions and updated docs">
+      <created>1555418131139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555418131139</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added logo">
+      <created>1555418204903</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555418204903</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added logo">
+      <created>1555418291339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555418291339</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -350,7 +274,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109205000" />
+    <option name="totallyTimeSpent" value="109475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -383,7 +307,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added all the actions and updated docs" />
+    <MESSAGE value="Added logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
@@ -715,8 +641,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="174">
-            <caret line="5" column="11" lean-forward="true" selection-end-line="332" selection-end-column="50" />
+          <first_editor relative-caret-position="145">
+            <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
