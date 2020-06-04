@@ -3,13 +3,13 @@
 The missing Paystack PHP Library. 
 ___
 ## Overview
-Paystack Mirror is a clean, simple and fluent php library for paystack payment gateway. This library is birthed out of the fact that i needed something flexible than what is in existance for myself and the php community.
+Paystack Mirror is a clean, simple and fluent php library for paystack payment gateway. This library is birthed out of the fact that I needed something flexible than what is in existance for myself and the php community.
 
 ### What was wrong with the existing one?
-The official paystack library for php is the yabacon/paystack-php on github. It's cool. Supports almost all paystack end-points and some other cool features like a dedicated Fee class, MetaDataBuilder class and Event handler class. Many people have been using the library but i wanted something that can give people freedom over what they do. I wanted something that supports multiple accounts at once. It's why i decided to work on this library. 
+The official paystack library for php is the yabacon/paystack-php on github. It's cool. Supports almost all paystack end-points and some other cool features like a dedicated Fee class, MetaDataBuilder class and Event handler class. Many people have been using the library but I wanted something that can give people freedom over what they do. I wanted something that supports multiple accounts at once. It's why I decided to work on this library. 
 
 ### What is unique about the library?
-1. The conversion of paystack end-points to full fletch extendable php classes.
+1. The conversion of paystack end-points to full fledged extendable php classes.
 2. Supports for multiple accounts
 3. Clean and better event handler class
 4. Fluent Params Builder class
@@ -21,7 +21,7 @@ The official paystack library for php is the yabacon/paystack-php on github. It'
 * cURL extension enabled
 * OpenSSL extension enabled
 
-> This library has suppports for all Paystack end-points which we refers to as **Actions**. _Let's take a look at the available actions._
+> This library has suppports for all Paystack end-points which we refer to as **Actions**. _Let's take a look at the available actions._
 
 ## List of actions groups
 Below are actions groups supported by the library in alphabetical order.
@@ -327,6 +327,7 @@ Correcting a typographical error is a huge a contribution to this project. Do we
 
 ## Collaborators
 1. [Josiah O. Yahaya](http://github.com/coderatio)
+2. [Ndubuisi Onyemenam](http://github.com/prondubuisi)
 
 ## Licence
 This project is built and used with `GPL.3.0` licence.
